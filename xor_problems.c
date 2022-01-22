@@ -63,6 +63,21 @@ Q3:) Find the only non repeating element in an array where every other element r
     elements in each set and we get the non-repeating
     elements 7 and 9. Please see the implementation for this step.
 
+
+------------------------------>>>>>> Q3 <<<<< -----------------------------------
+
+    consider following array;
+        arr[] = {2 , 1 , 5 , 1 , 2, 1, 2};
+
+    Create an array count[] of size equal to
+    number of bits in binary representations of numbers.
+
+    Fill count array such that count[i] stores count of array elements with i-th bit set.
+
+    Form result using count array.
+    We put 1 at a position i in result if count[i] is not multiple of k. Else we put 0.
+
+
 */
 
 #include <stdio.h>
